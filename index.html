@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>G‘iyos Erkaboyev</title>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Josefin Sans', sans-serif;
+      font-family: 'Roboto Slab', serif;
     }
+
     body {
-      background: linear-gradient(135deg, #1e3c72, #2a5298);
-      color: #fff;
-      height: 100vh;
+      background: linear-gradient(to right, #e0f7fa, #fff);
+      min-height: 100vh;
+      color: #222;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
-      padding: 20px;
+      padding: 40px 20px;
     }
-    .container {
-      max-width: 600px;
-      background: rgba(255, 255, 255, 0.1);
-      padding: 30px;
-      border-radius: 16px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.3);
-      backdrop-filter: blur(10px);
-    }
+
     h1 {
-      font-size: 36px;
-      margin-bottom: 20px;
+      font-size: 48px;
+      margin-bottom: 10px;
+      color: #00796b;
     }
+
     p {
-      font-size: 18px;
-      line-height: 1.6;
+      font-size: 20px;
+      max-width: 600px;
+      margin-bottom: 40px;
     }
-    .tagline {
-      font-style: italic;
-      color: #ffd700;
-      margin-top: 15px;
+
+    .links {
+      margin-top: 20px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: white;
+      background-color: #00796b;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #004d40;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>G‘iyos Erkaboyev</h1>
-    <p>Nuristonlik ijodkor, tentaklik va falsafani sevuvchi ruh. Bu sayt mening so‘zlarim, hislarim va orzularim oynasidir.</p>
-    <p class="tagline">“Tentaklik – bu erkinlikning bosh harfi.”</p>
+  <h1>G‘iyos Erkaboyev</h1>
+  <p>
+    Men Nuristonlik ijodkorman. Kod, fikr va san’atni yaxshi ko‘raman. 
+    Bu sahifa — men haqimda, men uchun va siz uchun ochilgan kichik makon.
+  </p>
+  <div class="links">
+    <a href="https://t.me/giyoserkaboyev" target="_blank">Telegram</a>
+    <a href="mailto:giyoserkaboyev48@gmail.com">Email</a>
   </div>
 </body>
 </html>
